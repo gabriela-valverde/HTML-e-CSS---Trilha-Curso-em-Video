@@ -1,0 +1,20 @@
+Comentários
+
+@font-face {
+    font-family: 'MinhaFontePersonalizada'; /* Nome que você vai usar no CSS */
+    src: url('caminho/para/sua-fonte.woff2') format('woff2'), /* Para navegadores modernos */
+         url('caminho/para/sua-fonte.woff') format('woff'),   /* Para navegadores mais antigos */
+         url('caminho/para/sua-fonte.ttf') format('truetype'); /* Para navegadores mais antigos ainda */
+    font-weight: normal; /* Peso da fonte (normal, bold, 100-900) */
+    font-style: normal;  /* Estilo da fonte (normal, italic) */
+}
+
+
+Ectensão do windows para identificar fontes em fotos e site
+
+https://www.myfonts.com/pages/whatthefont?step=crop
+
+https://www.whatfontis.com/?s2c#google_vignette
+
+https://www.fontsquirrel.com/
+

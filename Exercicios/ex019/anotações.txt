@@ -1,0 +1,8 @@
+Dentro de um mesmo documento html só podemos ter um ID
+ex: Id="principal"
+    
+    devemos criar um novo 
+    Id="id"principal_secundário
+
+    <span class="intermediario">of Letraset sheets containing Lorem Ipsum passages, and more recentl</span>
+      *****/*a configuração do texto é isolada*/*****

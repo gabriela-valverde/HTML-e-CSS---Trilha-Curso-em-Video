@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+
+*{
+  
+  font-family: Arial, Helvetica, sans-serif; 
+
+}
+
+body {  
+   /*degrade precisa ser exatamente como esta aqui*/               
+   background-image: linear-gradient( to right, #348888, #22BABB, #9EF8EE );
+}
+
+ /*dentro do maian est]ao as confg. da folha em branco*/
+main{
+  background-color: white;
+  border-radius: 10px;
+  width: 600px;
+  padding: 10px;
+  margin: auto;
+  box-shadow: 8px 8px 20px rgb(23, 103, 104);
+}
+
+p /*todos os parágrafos estam justificados*/
+  {
+ text-align: justify;
+  }
+
+  h1{
+   color: #F24405;
+   text-align: center;
+   text-shadow: 5px 5px #cfc4c1; /*sombra da letra do titulo*/
+  }
+
+
+
+
+

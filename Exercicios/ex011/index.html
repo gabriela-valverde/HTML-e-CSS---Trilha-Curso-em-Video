@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>imagens dinamicas</title>
+</head>
+<body>
+<h1>imagens dinamicas</h1>
+<p>tente abrir este site em vários dispositivos diferentes ou simplimente aumente diminua o taman ho do seu navegador</p>
+
+<picture> <!--a base é a imagem grande, de baixo para cima-->
+  <source media="(max-width: 750px)" srcset="img/P.png" type="image/png"> 
+  <source media="(max-width: 1050px)" srcset="img/M.png" type="image/png">
+  <img src="img/G.png" alt="imagens dinamicas no html, para facilitar o usuário">
+</picture>
+
+<h1>Reproduzindo audios</h1>
+<p>Vamos aprender a reproduzir audios </p>
+<audio src="musica/Island Life - Telecasted.mp3" controls autoplay></audio>
+
+<!--Outra maneira de criar audios-->
+<!--<audio>
+<source src="musica/Island Life - Telecasted.mp3" type="audio/mpeg">
+<source src="musica/Island Life - Telecasted.mp3" type="audio/ogg">
+<source src="musica/Island Life - Telecasted.mp3" type="audio/wav">
+</audio>-->
+
+<!-- arquivo pode ser baixado caso nenhuma das alternativas funcionem.
+<a href="musica/Island Life - Telecasted.mp3">clique aqui para baixar o arquivo</a>
+-->
+
+
+</body>
+</html>
